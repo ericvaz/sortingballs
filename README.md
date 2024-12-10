@@ -1,3 +1,6 @@
+![Sorting Balls](image.png)
+
+
 # Silo Sorting Comparison
 
 This project compares three sorting algorithms for organizing colored balls in silos:
