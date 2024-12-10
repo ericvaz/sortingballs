@@ -45,14 +45,15 @@ This project compares and benchmarks four sorting methods for organizing colored
 3. **Pairwise Sorting** - Balances silos iteratively by swapping adjacent balls.  
 4. **Novel Approaches** - A testing ground for experimental and creative techniques designed to optimize sorting further.  
 
-   - **MRSA Filter (Minimum Random Swaps for Alignment)**:  
+   -(i) **MRSA Filter (Minimum Random Swaps for Alignment)**:  
      A heuristic method that uses *trial-and-error* randomness to reduce system entropy.  
      - Balls are **randomly swapped** between silos.  
      - If a swap reduces the overall entropy (disorder), it's kept.  
      - If not, the swap is **undone**, ensuring only beneficial swaps persist.  
-     - The process repeats iteratively, allowing silos to "self-organize" into a more balanced state over time.  
-
-     The MRSA Filter is inspired by natural systems that stabilize through randomness, combining simplicity with effectiveness. It’s a novel approach to solving sorting problems where traditional methods might fall short.
+     - The process repeats iteratively, allowing silos to "self-organize" into a more balanced state over time.
+     - The MRSA Filter is inspired by natural systems that stabilize through randomness, combining simplicity with effectiveness.
+       It’s a novel approach to solving sorting problems where traditional methods might fall short.
+   -(ii) ... More to come, pending inspiration and time... <3
 
 ---
 
