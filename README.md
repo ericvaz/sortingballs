@@ -1,10 +1,10 @@
 
 # Silo Sorting Comparison
 
-This project compares three sorting algorithms for organizing colored balls in silos:
+This project compares three sorting algorithms for organizing coloured balls in silos:
 1. **Conventional Sorting**: Sorts balls alphabetically within each silo.
-2. **Entropy-Based Sorting**: Minimizes entropy by redistributing balls by color.
-3. **Pairwise Sorting**: Balances color distributions between adjacent silos through iterative swaps.
+2. **Entropy-Based Sorting**: Minimizes entropy by redistributing balls by colour.
+3. **Pairwise Sorting**: Balances colour distributions between adjacent silos through iterative swaps.
 
 ## Project Structure
 
