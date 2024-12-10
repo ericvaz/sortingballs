@@ -18,5 +18,5 @@ Clone the repository and install the dependencies:
 git clone https://github.com/ericvaz/sortingballs.git
 cd sortingballs
 pip install -r requirements.txt
-
+```
 <img src="image.png" alt="Sorting Balls" width="500"/>
