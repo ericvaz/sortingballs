@@ -1,22 +1,22 @@
+# Sorting Balls
 
-# Silo Sorting Comparison
+## Overview
+A project that compares and benchmarks three sorting methods for organizing colored balls into silos:
+1. **Conventional Sorting** - Alphabetically sorts balls in each silo.
+2. **Entropy-Based Sorting** - Minimizes disorder (entropy) by redistributing balls by color.
+3. **Pairwise Sorting** - Balances silos iteratively by swapping adjacent balls.
 
-This project compares three sorting algorithms for organizing coloured balls in silos:
-1. **Conventional Sorting**: Sorts balls alphabetically within each silo.
-2. **Entropy-Based Sorting**: Minimizes entropy by redistributing balls by colour.
-3. **Pairwise Sorting**: Balances colour distributions between adjacent silos through iterative swaps.
-
-## Project Structure
-
-- `src/`: Source code for generation, sorting methods, performance measurement, and visualization.
-- `notebooks/`: Jupyter Notebook showcasing the implementation and results.
-- `data/`: Sample input data.
+## Features
+- Generates silos filled with random colored balls.
+- Measures and compares the performance of sorting algorithms.
+- Saves a visual graph of the results.
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/silo-sorting-comparison.git
-   cd silo-sorting-comparison
+Clone the repository and install the dependencies:
+```bash
+git clone https://github.com/yourusername/sorting-balls.git
+cd sorting-balls
+pip install -r requirements.txt
 
 <img src="image.png" alt="Sorting Balls" width="500"/>
