@@ -15,8 +15,8 @@ A project that compares and benchmarks three sorting methods for organizing colo
 
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/yourusername/sorting-balls.git
-cd sorting-balls
+git clone https://github.com/ericvaz/sortingballs.git
+cd sortingballs
 pip install -r requirements.txt
 
 <img src="image.png" alt="Sorting Balls" width="500"/>
