@@ -1,5 +1,3 @@
-![Sorting Balls](image.png)
-
 
 # Silo Sorting Comparison
 
@@ -20,3 +18,5 @@ This project compares three sorting algorithms for organizing colored balls in s
    ```bash
    git clone https://github.com/yourusername/silo-sorting-comparison.git
    cd silo-sorting-comparison
+
+<img src="image.png" alt="Sorting Balls" width="500"/>
