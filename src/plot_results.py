@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_comparison_graph(sizes, results, save_path=None):
+def plot_comparison_graph(sizes, results, save_path=None, show=False):
     """
     Plot a comparison graph showing processing times for all sorting methods.
 
@@ -8,6 +8,7 @@ def plot_comparison_graph(sizes, results, save_path=None):
         sizes (list): List of problem sizes tested.
         results (dict): A dictionary containing processing times for each method.
         save_path (str, optional): File path to save the plot instead of displaying.
+        show (bool, optional): Whether to display the plot after saving.
     """
     plt.figure(figsize=(10, 6))
 
@@ -26,6 +27,6 @@ def plot_comparison_graph(sizes, results, save_path=None):
     # Save or show the graph
     if save_path:
         plt.savefig(save_path)
-        print(f"Plot saved to {save_path}")
-    else:
-        print("Plot ready to display. Call plt.show() to view it.")
+        print(f"Graph saved to {save_path}")
+    if show:
+        plt.show()
