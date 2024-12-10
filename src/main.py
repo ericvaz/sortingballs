@@ -32,7 +32,7 @@ def main():
     plot_comparison_graph(SIZES, results, save_path=PLOT_PATH)
     print(f"Graph saved to {PLOT_PATH}")
 
-    print("\nDone! 🎉 Check the output directory for results.")
+    print("\nDone. Check the output directory for results.")
 
 if __name__ == "__main__":
     main()
